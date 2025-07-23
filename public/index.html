@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battle Scripts</title>
+  </head>
+  <body>
+    <section>
+      <article>
+        <h1>ogro</h1>
+        <section>
+          <input type="number" value="35" id="forcaOgro" readonly />
+          <input type="number" value="125" id="vidaOgro" readonly />
+          <button id="escolherOgro" data-personagem='["Ogro",35,125]'></button>
+                </article>
+          
+                <article>
+          <h1>humano</h1>
+          <input type="number" value="18" id="forcaHumano" readonly />
+          <input type="number" value="80" id="vidaHumano" readonly />
+          <button id="escolherHumano"  data-personagem='["Humano",18,80]'></button>
+                </article>
+          
+                <article>
+          <h1>anão</h1>
+          <input type="number" value="10" id="forcaAnao" readonly />
+          <input type="number" value="40" id="vidaAnao" readonly />
+          <button id="escolherAnao" data-personagem='["Anão",10,40]'></button>
+                </article>
+        </section>
+        <article>
+          <button id="PerJaEscolhido">Personagm já escolhido</button>
+        </article>
+    </section>
+
+    <script type="module" src="../dist/util/btnPersonagem.js"></script>
+        <script type="module" src="../dist/app.js"></script>
+
+  </body>
+</html>
