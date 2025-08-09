@@ -1,10 +1,19 @@
 # Battle Scripts
 
+<p align="center">
+  <img src="public/imgs/logo-principal.png" alt="Battle Scripts Logo" width="400" />
+</p>
+
 ## Descrição
 
 **Battle Scripts** é um jogo simples de batalha por turnos onde você escolhe entre três personagens com características distintas para enfrentar inimigos, ganhar batalhas e coletar itens que melhoram suas habilidades. Seu objetivo é avançar o máximo possível derrotando inimigos cada vez mais fortes e aprimorando seu personagem com os itens coletados.
 
 ---
+
+
+<p align="center">
+  <img src="public/imgs/Wallpaper.png" alt="Battle Scripts Logo" width="400" />
+</p>
 
 ## Personagens
 
@@ -52,18 +61,12 @@ Sobreviver o maior número de batalhas possível, coletando itens e fortalecendo
 
 ---
 
-## Tecnologias
+## Tecnologias Utilizadas
 
-Este projeto foi desenvolvido utilizando:
+- **TypeScript** 
+- **Express** 
+- **HTML5** 
+- **CSS3** 
+- **JavaScript (ES6+)** 
 
-- JavaScript
-- HTML/CSS (se aplicável)
-- Node.js (se aplicável)
 
----
-
-## Como Rodar
-
-1. Clone o repositório  
-   ```bash
-   git clone https://github.com/seu-usuario/battle-scripts.git
