@@ -16,4 +16,19 @@ export class Personagens {
   get valores(): string {
     return `Clã:${this.cla} e força:${this.forca} e vida:${this.vida}`;
   }
+
+  get retornaForca(){
+    return this.forca
+  }
+  get retornaVida(){
+    return this.vida
+  }
+
+  public set alterarForcaDoPersonagem(forca:number) {
+    this.forca = forca 
+  }
+
+  public set alterarVidaDoPersonagem(vida: number) {
+     this.vida = vida 
+  }
 }
