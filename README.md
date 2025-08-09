@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <img src="public/imgs/Wallpaper.png" alt="Battle Scripts Logo" width="400" />
+  <img src="public/imgs/wallpaper.png" alt="Battle Scripts Logo" width="900" />
 </p>
 
 ## Personagens
